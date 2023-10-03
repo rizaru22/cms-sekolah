@@ -34,7 +34,7 @@
                     <img src="{{ asset('storage/' . $schoolProfile->kepala_sekolah_image) }}" class="card-img-top">
                     <div class="card-body text-center">
                         <h3 class="fs-2">{{ $schoolProfile->kepala_sekolah }}</h3>
-                        <div class="text-muted mb-3">Kepala Sekolah SMK Negeri 1 Stabat</div>
+                        <div class="text-muted mb-3">Kepala Sekolah SMK Negeri 1 Karang Baru</div>
 
                         <div style="text-align: justify;" class="fs-3">{!! $schoolProfile->kata_sambutan !!}</div>
                     </div>

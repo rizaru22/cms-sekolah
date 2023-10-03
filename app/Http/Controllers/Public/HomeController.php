@@ -27,7 +27,7 @@ class HomeController extends Controller
             ->where('is_published', '1')
             ->filter(request(["search", 'category', 'author']))
             ->paginate(10)->withQueryString();
-
+ 
         $slides = Slide::all();
 
         return $this->view('public.home.index', [

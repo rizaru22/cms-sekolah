@@ -2,11 +2,11 @@
     <div class="container-xl py-2">
         <!-- logo -->
         <div class="d-flex align-items-center">
-            <img src="{{ asset('storage/' . $schoolProfile->logo) }}" class="bg-transparent avatar me-2" alt="SMK Negeri 1 Stabat Logo (Tut Wuri Handayani)">
+            <img src="{{ asset('storage/' . $schoolProfile->logo) }}" class="bg-transparent avatar me-2" alt="SMK Negeri 1 Karang Baru Logo (Tut Wuri Handayani)">
             <div>
                 <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal p-0 pe-0 pe-md-3">
                     <a href="{{ route('home.index') }}">
-                        SMKN 1 Stabat
+                        SMKN 1 Karang Baru
                     </a>
                 </h1>
                 <p class="d-none d-md-block fw-normal fs-5 m-0">{{ $schoolProfile->address }}</p>
@@ -43,7 +43,7 @@
         <!-- end humburger menu -->
     </div>
 </header>
-
+ 
 <!-- second navbar -->
 <div class="navbar-expand-md">
     <div class="collapse navbar-collapse" id="navbar-menu">

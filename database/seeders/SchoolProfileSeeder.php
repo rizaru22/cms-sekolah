@@ -17,10 +17,10 @@ class SchoolProfileSeeder extends Seeder
     {
         SchoolProfile::truncate();
         SchoolProfile::create([
-            "name"  => "SMK Negeri 1 Stabat",
-            "address" => "Jl. K.H Wahid Hasyim Kec. Stabat Kab. Langkat POS.20814",
+            "name"  => "SMK Negeri 1 Karang Baru",
+            "address" => "Jl. K.H Wahid Hasyim Kec. Karang Baru Kab. Langkat POS.20814",
             "postal_number" => "20814",
-            "email" => "smknsatustabat@gmail.com",
+            "email" => "smknsatuKarang Baru@gmail.com",
             "phone_number" => "(061)-8911004",
             "logo" => "school-profile-images/default-logo.png",
             "kepala_sekolah" => "Ilyas, S.Pd, M.PSi",

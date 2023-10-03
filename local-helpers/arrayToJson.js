@@ -7,7 +7,7 @@
     "Kepala Perpustakaan",
     "IV/a",
     "JL.BERINGIN PSR VII  G.MERPATI",
-    '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/1 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+    '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/1 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
 ]
 **/
 const teachers = [
@@ -19,7 +19,7 @@ const teachers = [
         "Kepala Perpustakaan",
         "IV/a",
         "JL.BERINGIN PSR VII  G.MERPATI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/1 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/1 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8650766668130102",
@@ -29,7 +29,7 @@ const teachers = [
         "-",
         "",
         "DUSUN TANI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/2 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/2 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2843747649200032",
@@ -39,7 +39,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "IV/a",
         "DUSUN PONDOK 13 KAMPUNG SAWIT SEBERANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/3 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/3 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4953751653200022",
@@ -48,8 +48,8 @@ const teachers = [
         "Guru Mapel",
         "Kepala Unit Produksi",
         "IV/b",
-        "LING. V BERINGIN BLOK A NO 85 STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/4 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "LING. V BERINGIN BLOK A NO 85 Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/4 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7533748650200023",
@@ -59,7 +59,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "IV/a",
         "JL. KARYA BAKTI LING. 1",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/5 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/5 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5160739640200023",
@@ -69,7 +69,7 @@ const teachers = [
         "-",
         "IV/b",
         "SIMPANG PADANG LANGKAT DESA AIR HITAM GEBANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/6 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/6 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7143755656300043",
@@ -79,7 +79,7 @@ const teachers = [
         "-",
         "III/a",
         "Jl. R. Suprapto No 28",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/7 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/7 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7834760661300052",
@@ -89,7 +89,7 @@ const teachers = [
         "-",
         "IV/a",
         "S. PARMAN GG SEJAHTERA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/8 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/8 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0645743644200042",
@@ -99,7 +99,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "III/c",
         "Jl. Penguin IX No. 433",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/9 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/9 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2838748651200022",
@@ -109,7 +109,7 @@ const teachers = [
         "-",
         "III/d",
         "Dusun V Psr.1 Hilir",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/10 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/10 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2159767668300013",
@@ -119,7 +119,7 @@ const teachers = [
         "-",
         "",
         "DUSUN IV PASAR VI ARA CONDONG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/11 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/11 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2641746648200032",
@@ -129,7 +129,7 @@ const teachers = [
         "-",
         "III/c",
         "JL. T.A. HAMZAH NO 73",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/12 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/12 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8653743646200032",
@@ -139,7 +139,7 @@ const teachers = [
         "-",
         "III/d",
         "JL. MEDAN - BINJAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/13 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/13 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4039744646300063",
@@ -149,7 +149,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. PELITA I",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/14 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/14 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3935754656300022",
@@ -159,7 +159,7 @@ const teachers = [
         "Kepala Bengkel",
         "IV/a",
         "BINJAI TANJUNG PURA KM 29,5 NO 82",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/15 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/15 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4633770671130012",
@@ -169,7 +169,7 @@ const teachers = [
         "-",
         "",
         "JL. KARYA IV Gg. PEMUDA NO. 177",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/16 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/16 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9457756658300012",
@@ -179,7 +179,7 @@ const teachers = [
         "-",
         "III/b",
         "JL. JEND. SUDIRMAN NO. 62 LK.V",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/17 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/17 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0055748650200033",
@@ -189,7 +189,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. SUTOYO",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/18 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/18 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4744739640200042",
@@ -199,7 +199,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. BAKTI LUHUR GG. SUPLIR NO.78B MEDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/19 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/19 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0039759661300023",
@@ -209,7 +209,7 @@ const teachers = [
         "-",
         "III/c",
         "Jl. Kol. M. HAIYAR NO.23",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/20 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/20 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5047764665110043",
@@ -219,7 +219,7 @@ const teachers = [
         "Pembina OSIS",
         "III/b",
         "JL. ALBADAR VII LK. II",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/21 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/21 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -229,7 +229,7 @@ const teachers = [
         "-",
         "",
         "JL. SEROJA 44",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/22 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/22 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6542742644200043",
@@ -239,7 +239,7 @@ const teachers = [
         "-",
         "IV/b",
         "Jl. Jamin Ginting Lk.1 No. 22-D",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/23 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/23 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -249,7 +249,7 @@ const teachers = [
         "-",
         "",
         "Dusun I Jawa",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/24 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/24 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3548752654300053",
@@ -259,7 +259,7 @@ const teachers = [
         "-",
         "III/a",
         "JL. R. SUPRAPTO LINGK. VIII",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/25 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/25 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3541750652300072",
@@ -269,7 +269,7 @@ const teachers = [
         "-",
         "III/d",
         "JL DANAU BARATAN 1 NO 67 C",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/26 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/26 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6352746648300043",
@@ -279,7 +279,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "IV/a",
         "MEDAN DUA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/27 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/27 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9556771671130022",
@@ -289,7 +289,7 @@ const teachers = [
         "-",
         "",
         "JL. KARYA BAKHTI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/28 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/28 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8662737640300002",
@@ -299,7 +299,7 @@ const teachers = [
         "-",
         "IV/b",
         "JLN. S. PARMAN LK VIII BANTENAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/29 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/29 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2741732643300002",
@@ -309,7 +309,7 @@ const teachers = [
         "Kepala Bengkel",
         "IV/b",
         "JL. GATOT SUBROTO KM 8,2 NO 309 C",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/30 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/30 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1833760662200042",
@@ -319,7 +319,7 @@ const teachers = [
         "-",
         "III/c",
         "Dusun III Jati Rejo Pasar 6 Kw. Mencirim",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/31 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/31 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7662767668200012",
@@ -329,7 +329,7 @@ const teachers = [
         "-",
         "",
         "BARU JAYA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/32 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/32 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9139744647200053",
@@ -338,8 +338,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/b",
-        "JL. SUDIRMAN PERDAMAIAN STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/33 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. SUDIRMAN PERDAMAIAN Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/33 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4061743644200013",
@@ -349,7 +349,7 @@ const teachers = [
         "Koordinator Bursa Kerja Khusus SMK",
         "IV/b",
         "JL. BAKTI LUHUR GG KUDA LAUT NO 171 MEDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/34 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/34 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3439758660200042",
@@ -359,7 +359,7 @@ const teachers = [
         "-",
         "",
         "Jl. Kota Rantang Ds.IV",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/35 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/35 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0254740641110003",
@@ -369,7 +369,7 @@ const teachers = [
         "Kepala Sekolah",
         "IV/b",
         "TANJUNG PURA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/36 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/36 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3847749651300042",
@@ -379,7 +379,7 @@ const teachers = [
         "-",
         "III/d",
         "JL. GARU LK. IV",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/37 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/37 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5846763664300092",
@@ -389,7 +389,7 @@ const teachers = [
         "-",
         "",
         "TANJUNG PURA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/38 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/38 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4760748649300022",
@@ -399,7 +399,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. IKAN SENANGIN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/39 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/39 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1046747649200023",
@@ -409,7 +409,7 @@ const teachers = [
         "-",
         "",
         "JL. S. PARMAN NO 66",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/40 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/40 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3958746651200002",
@@ -419,7 +419,7 @@ const teachers = [
         "Wakil Kepala Sekolah Kurikulum",
         "IV/a",
         "LINGK. V BERINGIN BLOK B",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/41 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/41 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8160755657200013",
@@ -429,7 +429,7 @@ const teachers = [
         "Pembina Pramuka Putra",
         "III/b",
         "Jl. T. AMIR HAMZAH",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/42 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/42 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5542748650200032",
@@ -439,7 +439,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. MURNI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/43 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/43 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2052751653300073",
@@ -449,7 +449,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "III/c",
         "JL. BAKTI ABRI DUSUN IV",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/44 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/44 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0537758660200023",
@@ -459,7 +459,7 @@ const teachers = [
         "-",
         "",
         "JL. KHAIRIL ANWAR NO. 31 TG. PURA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/45 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/45 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2949749651200052",
@@ -469,7 +469,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "III/d",
         "JL. DANAU BARATAN 1 NO.67C",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/46 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/46 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8944749652200022",
@@ -479,7 +479,7 @@ const teachers = [
         "-",
         "III/c",
         "Jl. Suka Mulia",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/47 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/47 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5952747649200032",
@@ -489,7 +489,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. PITURAH GG. PELITA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/48 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/48 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -499,7 +499,7 @@ const teachers = [
         "-",
         "",
         "Jln. Perjuangan No. 24",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/49 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/49 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3462749650200012",
@@ -509,7 +509,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. LADA 3 NO. 18 P. SIMALINGKAR",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/50 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/50 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2544746649300052",
@@ -519,7 +519,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. T. UMAR NO. 65 BINJAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/51 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/51 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7958740643300002",
@@ -529,7 +529,7 @@ const teachers = [
         "-",
         "IV/a",
         "L. KAWAT III NO 75 TG. MULIA MEDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/52 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/52 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9543738640300073",
@@ -539,7 +539,7 @@ const teachers = [
         "-",
         "III/a",
         "JL. KELAPA SAWIT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/53 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/53 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5838749651200032",
@@ -548,8 +548,8 @@ const teachers = [
         "Guru Mapel",
         "Wakil Kepala Sekolah Humas",
         "IV/b",
-        "Perumnas Langkat Berseri B. 14 Stabat",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/54 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "Perumnas Langkat Berseri B. 14 Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/54 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1343748655200003",
@@ -559,7 +559,7 @@ const teachers = [
         "-",
         "III/c",
         "JL. TEUKU UMAR NO. 65 LK.6",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/55 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/55 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0949738641200032",
@@ -569,7 +569,7 @@ const teachers = [
         "-",
         "IV/a",
         "DUSUN IX PASAR BESAR NO 48",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/56 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/56 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8137755656200013",
@@ -579,7 +579,7 @@ const teachers = [
         "-",
         "III/d",
         "LING. V SEI DENDANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/57 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/57 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0340750653200013",
@@ -589,7 +589,7 @@ const teachers = [
         "-",
         "III/c",
         "LING. V SEI DENDANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/58 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/58 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9535769670130072",
@@ -599,7 +599,7 @@ const teachers = [
         "-",
         "",
         "DSN IV Budi Utomo",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/59 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/59 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9863748650300012",
@@ -609,7 +609,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. BROMO Lr. SEDERHANA NO. 1 MEDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/60 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/60 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -619,7 +619,7 @@ const teachers = [
         "-",
         "",
         "JLN. SEPAKAT LINGK. VI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/61 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/61 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -629,7 +629,7 @@ const teachers = [
         "-",
         "",
         "JL. P. KEMERDEKAAN NO. 105. LK. VI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/62 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/62 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4849745647200052",
@@ -638,8 +638,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/a",
-        "DUSUN BERINGIN BLOK C 14 PERDAMAIAN STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/63 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "DUSUN BERINGIN BLOK C 14 PERDAMAIAN Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/63 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6143740642300063",
@@ -648,8 +648,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/b",
-        "JL. PENERANGAN STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/64 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. PENERANGAN Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/64 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2448751652200012",
@@ -659,7 +659,7 @@ const teachers = [
         "Wakil Kepala Sekolah Kesiswaan",
         "IV/b",
         "JL. ANGGREK  LINK. I",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/65 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/65 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0337769671130053",
@@ -669,7 +669,7 @@ const teachers = [
         "-",
         "",
         "LING. X DUSUN PURWOSARI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/66 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/66 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5734754655200012",
@@ -679,7 +679,7 @@ const teachers = [
         "Kepala Bengkel",
         "III/c",
         "PERUMAHAN PONDOK NUSANTARA BLI 1 NO. 17",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/67 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/67 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6040757660200013",
@@ -689,7 +689,7 @@ const teachers = [
         "Pembina Pramuka Putri",
         "IV/a",
         "DUSUN PAYA RENGO",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/68 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/68 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5835769670130042",
@@ -699,7 +699,7 @@ const teachers = [
         "-",
         "",
         "PAYA KANGKUNG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/69 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/69 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6945752653300022",
@@ -709,7 +709,7 @@ const teachers = [
         "Kepala Laboratorium",
         "IV/b",
         "JLN.JEND.SUDIRMAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/70 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/70 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1544743646300103",
@@ -719,7 +719,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. KELAPA SAWIT C.10D",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/71 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/71 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4549747649300043",
@@ -729,7 +729,7 @@ const teachers = [
         "-",
         "IV/a",
         "Jl. TALAM I LK VI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/72 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/72 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "6433749652200042",
@@ -739,7 +739,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "IV/b",
         "JLN.JEND. SUDIRMAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/73 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/73 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3651742644200022",
@@ -749,7 +749,7 @@ const teachers = [
         "Kepala Bengkel",
         "IV/b",
         "BLOK R 3 TAMAN KW DAMAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/74 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/74 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2139751652300043",
@@ -759,7 +759,7 @@ const teachers = [
         "Kepala Bengkel",
         "III/d",
         "PERUMNAS KELAPA SAWIT, BLOK A 98",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/75 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/75 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0360742644200023",
@@ -769,7 +769,7 @@ const teachers = [
         "-",
         "IV/a",
         "JL. SUTOYO",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/76 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/76 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -779,7 +779,7 @@ const teachers = [
         "-",
         "",
         "JLN. P. KEMERDEKAAN LK. VI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/77 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/77 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2440750652200023",
@@ -789,7 +789,7 @@ const teachers = [
         "-",
         "IV/a",
         "PERINTIS BARU",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/78 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/78 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -799,7 +799,7 @@ const teachers = [
         "-",
         "",
         "Jln. S. Parman Lingk. VII",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/79 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/79 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9652748649300012",
@@ -809,7 +809,7 @@ const teachers = [
         "-",
         "IV/a",
         "Jl. Rahmadsyah Gg. Setia No. 9/243 Medan",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/80 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/80 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9557750652300082",
@@ -818,8 +818,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "III/d",
-        "stabat",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/81 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/81 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8442741642300072",
@@ -829,7 +829,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. PABRIK TENUN 105 MEDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/82 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/82 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7240741641300003",
@@ -838,8 +838,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/b",
-        "JL. MURNI NO.9A STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/83 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. MURNI NO.9A Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/83 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -848,8 +848,8 @@ const teachers = [
         "Guru Kelas",
         "-",
         "",
-        "PSR. I KP.DONDONG STABAT LAMA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/84 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "PSR. I KP.DONDONG Karang Baru LAMA",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/84 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3748747648300002",
@@ -859,7 +859,7 @@ const teachers = [
         "-",
         "III/d",
         "Jl. Raimuna 12 no.59 Berngam Binjai",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/85 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/85 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2445745648300023",
@@ -869,7 +869,7 @@ const teachers = [
         "Kepala Bengkel",
         "IV/b",
         "TENGKU AMIR HAMZAH LINGK I BINJAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/86 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/86 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9357765666130083",
@@ -879,7 +879,7 @@ const teachers = [
         "-",
         "",
         "Link I Karya",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/87 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/87 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3649751652300032",
@@ -889,7 +889,7 @@ const teachers = [
         "-",
         "IV/a",
         "Jl. KAPTEN MUSLIM Gg. RUKUN MAKMUR NO.3",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/88 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/88 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -899,7 +899,7 @@ const teachers = [
         "-",
         "",
         "Jl. Petrochina",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/89 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/89 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2251733635200013",
@@ -909,7 +909,7 @@ const teachers = [
         "-",
         "IV/a",
         "PASAR 1 GOHOR LAMA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/90 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/90 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7537752654130093",
@@ -919,7 +919,7 @@ const teachers = [
         "-",
         "",
         "LK. V BERINGIN BLOK A 85",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/91 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/91 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2442760662300063",
@@ -929,7 +929,7 @@ const teachers = [
         "-",
         "III/a",
         "KARANG REJO",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/92 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/92 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1055746648300043",
@@ -938,8 +938,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/a",
-        "JL. SUTOYO LING. III SIDOMULYO STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/93 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. SUTOYO LING. III SIDOMULYO Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/93 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3544753655300052",
@@ -948,8 +948,8 @@ const teachers = [
         "Guru Mapel",
         "Kepala Program Keahlian",
         "IV/a",
-        "Jl. R. Suprapto Gg. Kurnia II Stabat",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/94 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "Jl. R. Suprapto Gg. Kurnia II Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/94 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -959,7 +959,7 @@ const teachers = [
         "-",
         "",
         "LINK. VI HINAI KIRI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/95 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/95 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3548751652300002",
@@ -969,7 +969,7 @@ const teachers = [
         "-",
         "III/d",
         "JL. PANCING V NO. 46 LK. II",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/96 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/96 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7555738640300023",
@@ -979,7 +979,7 @@ const teachers = [
         "-",
         "IV/b",
         "L. IKAN SENANGIN NO.9 TURIAM BINJAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/97 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/97 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1759758662200002",
@@ -989,7 +989,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "III/b",
         "ASRAMA KEBUN LADA. NO.246",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/98 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/98 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0347753655200043",
@@ -999,7 +999,7 @@ const teachers = [
         "-",
         "III/d",
         "JL.SEI BANGKATAN LK II",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/99 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/99 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0049749650200023",
@@ -1009,7 +1009,7 @@ const teachers = [
         "Kepala Bengkel",
         "IV/a",
         "JL. UTAMA NO 4",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/100 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/100 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7033741642200053",
@@ -1018,8 +1018,8 @@ const teachers = [
         "Guru Mapel",
         "Wakil Kepala Sekolah Sarpras",
         "IV/a",
-        "jln. Besar stabat secanggang",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/101 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "jln. Besar Karang Baru secanggang",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/101 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4744748650300102",
@@ -1029,7 +1029,7 @@ const teachers = [
         "-",
         "III/d",
         "Ling. III Sejahtera",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/102 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/102 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "5941746649300042",
@@ -1039,7 +1039,7 @@ const teachers = [
         "-",
         "III/b",
         "JL. MANGGA NO 7",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/103 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/103 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4163743644200013",
@@ -1049,7 +1049,7 @@ const teachers = [
         "-",
         "IV/b",
         "Jl. Titipan Gg. Rezeki No. 50",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/104 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/104 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0551749650300022",
@@ -1059,7 +1059,7 @@ const teachers = [
         "-",
         "IV/b",
         "JL. PERNIAGAAN NO. 106",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/105 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/105 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "9154745648200023",
@@ -1069,7 +1069,7 @@ const teachers = [
         "-",
         "IV/a",
         "BATU MELENGGANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/106 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/106 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7557749652300033",
@@ -1078,8 +1078,8 @@ const teachers = [
         "Guru Mapel",
         "-",
         "IV/b",
-        "DESA JENTERA STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/107 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "DESA JENTERA Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/107 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "7047756656300003",
@@ -1089,7 +1089,7 @@ const teachers = [
         "-",
         "III/d",
         "JL. GATOT SUBROTO KM 8.2 NO. 309 C",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/108 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/108 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1099,7 +1099,7 @@ const teachers = [
         "-",
         "",
         "JL TITI PAPAN GG. PERSATUAN  15A",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/109 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/109 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0741743647200022",
@@ -1109,7 +1109,7 @@ const teachers = [
         "-",
         "IV/b",
         "Jl. Sentosa",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/110 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/110 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1247743646200033",
@@ -1119,7 +1119,7 @@ const teachers = [
         "Kepala Program Keahlian",
         "III/d",
         "JL. SATU NO. B33",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/111 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/111 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "3249756656200003",
@@ -1128,8 +1128,8 @@ const teachers = [
         "Tenaga Administrasi Sekolah",
         "-",
         "",
-        "JL. KARYA BAKTI LK. 1 STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/112 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. KARYA BAKTI LK. 1 Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/112 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1139,7 +1139,7 @@ const teachers = [
         "-",
         "",
         "Dusun Mandiri",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/113 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/113 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1149,7 +1149,7 @@ const teachers = [
         "-",
         "",
         "LINK. II BAHAGIA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/114 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/114 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1159,7 +1159,7 @@ const teachers = [
         "-",
         "",
         "Dusun II",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/115 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/115 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1168,8 +1168,8 @@ const teachers = [
         "Tenaga Administrasi Sekolah",
         "-",
         "",
-        "JL. WONOSARI DESA PAYA MABAR kec. STABAT KAB. LANG",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/116 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. WONOSARI DESA PAYA MABAR kec. Karang Baru KAB. LANG",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/116 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1179,7 +1179,7 @@ const teachers = [
         "-",
         "",
         "JL. S. PARMAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/117 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/117 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1189,7 +1189,7 @@ const teachers = [
         "-",
         "",
         "Jln. D. I. Pandjaitan Lingk. I",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/118 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/118 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0739759660300092",
@@ -1199,7 +1199,7 @@ const teachers = [
         "-",
         "",
         "JL. SM. RAJA DUSUN II NO.44",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/119 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/119 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4738753654300052",
@@ -1208,8 +1208,8 @@ const teachers = [
         "Tenaga Administrasi Sekolah",
         "-",
         "II/a",
-        "JL. SETIA LINGK. IV STABAT",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/120 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        "JL. SETIA LINGK. IV Karang Baru",
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/120 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1219,7 +1219,7 @@ const teachers = [
         "-",
         "",
         "DUSUN XI ULU BRAYUN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/121 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/121 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "8148766667300043",
@@ -1229,7 +1229,7 @@ const teachers = [
         "-",
         "",
         "JLN. WARUKIN PO. 451 P. BRANDAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/122 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/122 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1239,7 +1239,7 @@ const teachers = [
         "-",
         "",
         "DUSUN III B CAMBAHAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/123 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/123 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "4146748651200053",
@@ -1249,7 +1249,7 @@ const teachers = [
         "-",
         "III/a",
         "LINGK. V ASMARA KW BINGAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/124 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/124 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "2557748653200003",
@@ -1259,7 +1259,7 @@ const teachers = [
         "-",
         "",
         "KW. BINGAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/125 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/125 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1269,7 +1269,7 @@ const teachers = [
         "-",
         "",
         "JL. KARYA BHAKTI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/126 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/126 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "1143747650200053",
@@ -1279,7 +1279,7 @@ const teachers = [
         "-",
         "",
         "JL. R. SUPRAPTO KW. BINGAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/127 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/127 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1289,7 +1289,7 @@ const teachers = [
         "-",
         "",
         "LINGK. VIII BANTENAN",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/128 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/128 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1299,7 +1299,7 @@ const teachers = [
         "-",
         "",
         "DUSUN VIII SUKA DAMAI",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/129 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/129 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "-",
@@ -1309,7 +1309,7 @@ const teachers = [
         "-",
         "",
         "JLN. S. PARMAN Gg. KURNIA",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/Guru/130 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/Guru/130 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
 ];
 const students = [
@@ -1322,7 +1322,7 @@ const students = [
         "Islam",
         "Dusun Cikal Bakal",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1279 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1279 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0027496141",
@@ -1333,7 +1333,7 @@ const students = [
         "Islam",
         "Lingkungan II Hinai Kiri",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1296 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1296 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0036097149",
@@ -1344,7 +1344,7 @@ const students = [
         "Islam",
         "Dusun IV Paya Kangkung",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1298 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1298 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0019382393",
@@ -1355,18 +1355,18 @@ const students = [
         "Islam",
         "DUSUN PAYA PINANG",
         "XII TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1919 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1919 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0035838587",
         "Bagus Satria",
         "Pria",
-        "Stabat Lama",
+        "Karang Baru Lama",
         "12 April 2003",
         "Islam",
         "Dusun Mekar Jaya",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1283 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1283 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0032919070",
@@ -1377,7 +1377,7 @@ const students = [
         "Islam",
         "LORONG TENGAH",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1284 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1284 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0026009718",
@@ -1388,7 +1388,7 @@ const students = [
         "Islam",
         "JL SUDAMA",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1286 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1286 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0031198645",
@@ -1399,7 +1399,7 @@ const students = [
         "Islam",
         "Psr. II",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1287 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1287 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0022659151",
@@ -1410,7 +1410,7 @@ const students = [
         "Islam",
         "Jln.Muda Dusun II",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1290 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1290 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0032858850",
@@ -1421,7 +1421,7 @@ const students = [
         "Islam",
         "PANTAI GEMI DUSUN 3",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1295 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1295 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0017741352",
@@ -1432,7 +1432,7 @@ const students = [
         "Islam",
         "DUSUN III KAYU LIMA",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1292 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1292 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0036433731",
@@ -1443,7 +1443,7 @@ const students = [
         "Islam",
         "Suka Makmur",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1289 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1289 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0035894642",
@@ -1454,7 +1454,7 @@ const students = [
         "Islam",
         "Dusun B VII",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1280 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1280 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0032915032",
@@ -1465,7 +1465,7 @@ const students = [
         "Islam",
         "Gunung Agung",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1293 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1293 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0033883856",
@@ -1476,7 +1476,7 @@ const students = [
         "Islam",
         "Dudun Tanjung Anom",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1281 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1281 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0032858875",
@@ -1487,7 +1487,7 @@ const students = [
         "Islam",
         "Jl. SUTOYO LINGK.III",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1288 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1288 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0032858866",
@@ -1498,18 +1498,18 @@ const students = [
         "Islam",
         "JL. MESJID",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1294 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1294 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0025936649",
         "Mhd. Fahmi",
         "Pria",
-        "Stabat",
+        "Karang Baru",
         "18 Desember 2002",
         "Islam",
         "Dusun Pantai Luas",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1297 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1297 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0031954836",
@@ -1520,7 +1520,7 @@ const students = [
         "Islam",
         "PANTAI PAKAM",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1282 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1282 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
     [
         "0019366129",
@@ -1531,7 +1531,7 @@ const students = [
         "Islam",
         "Dusun Pasar Batu",
         "XI TP",
-        '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1285 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+        '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1285 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
     ],
 ];
 /**
@@ -1543,7 +1543,7 @@ const students = [
     "Islam",
     "Dusun Cikal Bakal",
     "XI TP",
-    '<a href=https://www.smknegeri1stabat.sch.id/Surat/siswa/1279 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
+    '<a href=https://www.smknegeri1Karang Baru.sch.id/Surat/siswa/1279 target="_blank"><i class="fa fa-eye"> </i> detail </a>',
  */
 let teacherJson = [];
 let studentJson = [];

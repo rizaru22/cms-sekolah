@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 // superadmin: can all (users, articles, categories, students, teachers, majors)
 // admin: can all (articles, categories, students, teachers, majors)
 // editor: can only (articles)
-
+ 
 Route::prefix('/')->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('home.index');
     Route::get('/articles/{article}', [PublicArticleController::class, 'show'])->name('articles.show');

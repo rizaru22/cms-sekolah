@@ -4,7 +4,7 @@
             <div class="col-md-6 mb-3 mb-md-0">
                 <p class="m-0">
                     Copyright &copy; {{ date('Y') }}
-                    <a href="{{ route('home.index') }}" class="link-primary">SMK Negeri 1 Stabat</a>.
+                    <a href="{{ route('home.index') }}" class="link-primary">SMK Negeri 1 Karang Baru</a>.
                     All rights reserved.
                 </p>
             </div>
