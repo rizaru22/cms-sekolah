@@ -1,89 +1,90 @@
 @extends('layouts.public')
 
 @section('content')
-<div class="container-xlpx-0 px-md-3">
+<div class="container-fluid px-0 px-md-3">
     <div class="p-2">
-        <div class="row py-4">
-            <div class="col-lg-8">
+        <div class="row pt-4">
+            <div class="col-lg-7">
                 <div class="card mb-3">
-                    <div class="card-img-top img-responsive img-responsive-21x9" style="background-image: url({{ asset('storage/' . $major->kepala_sekolah_image) }})"></div>
-
-                    <div class="card-body py-3 px-2 px-md-3">
-                        <h1 class="card-title mb-3 fw-bold" style="font-size: 1.5rem !important;">{{ $major->name }}</h1>
-
-                        <div class="dropdown-divider"></div>
-
-                        <div style="font-size: 1rem;" class="markdown">
+                    <div class="mb-3">
+                        <div class="text-uppercase fw-bold d-block fz-zz mb-2 mj-4">
+                            Description
+                        </div>
+                        <div style="font-size: 1rem;" class="markdown mj-4">
                             {!! $major->body !!}
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- col-lg-4 karena ada gap di parent -->
-            <div class="col-lg-4">
+            <div class="col-lg-5 ms-auto"> <!-- Menggunakan ms-auto untuk menempatkan ke sebelah kanan -->
                 <div class="d-block mb-2">
                     <div class="card p-3">
                         <div class="row">
-                            <div class="col">
+                            <small class="text-uppercase text-muted fw-bold d-block mb-2 ms-4">
+                                Kepala Jurusan
+                            </small>
+                            <div class="col-lg-4">
                                 <div class="mb-3">
-                                    <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                        Head of Major
-                                    </small>
-                                    @if( $major->head->image )
-                                    <img src="{{ asset('storage/' . $major->head->image) }}" alt="" class="w-100 rounded mb-3 block">
+                                    @if( $major->image_major )
+                                    <img src="{{ asset('storage/' . $major->image_major) }}" alt="" class="w-100 rounded mb-3 block p80">
                                     @else
-                                    <p>No image</p>
+                                    <div>
+                                        <i class="fa-solid fa-user-tie" style="font-size: 48px; margin-left:10px;"></i>
+                                    </div>
+
                                     @endif
                                     <a href="{{ route('dashboard.teachers.index', ['techer' => $major->head->name]) }}" class="d-block text-reset">{{ $major->head->name }}</a>
                                 </div>
 
-                                <div class="dropdown-divider mb-3"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <p style="font-size: medium;">{{ $major->description }}</p>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="card-img-top img-responsive img-responsive-21x9" style="background-image: url({{ asset('storage/' . $major->image) }})"></div>
 
-                                <div class="mb-3">
-                                    <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                        Description
-                                    </small>
-                                    <p>{{ $major->description }}</p>
-                                </div>
-
-                                <div class="dropdown-divider mb-3"></div>
-
-                                <div class="mb-3">
-                                    <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                        Created at
-                                    </small>
-                                    <p class="d-block">{{ $major->created_at?->format('d M Y H:i') }}</p>
-                                </div>
-
-                                <div class="dropdown-divider mb-3"></div>
-
-                                <div class="mb-3">
-                                    <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                        Updated at
-                                    </small>
-                                    <p class="d-block">{{ $major->updated_at == $major->created_at ? 'Not updated yet' : $major->updated_at->format('d M Y H:i') }}</p>
-                                </div>
+                            <div class="card-body py-3 px-2 px-md-3">
+                                <h1 class="card-title mb-3 fw-bold" style="font-size: 1.5rem !important;">{{ $major->name }}</h1>
 
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-block">
-                    <h2 class="fs-1 mb-3">Kata Sambutan</h2>
-
-                    <div class="card card-sm w-full">
-                        <img src="{{ asset('storage/' . $schoolProfile->kepala_sekolah_image) }}" class="card-img-top">
-                        <div class="card-body text-center">
-                            <h3 class="fs-2">{{ $schoolProfile->kepala_sekolah }}</h3>
-                            <div class="text-muted mb-3">Kepala Sekolah SMK Negeri 1 Karang Baru</div>
-
-                            <div style="text-align: justify;" class="fs-3">{!! $schoolProfile->kata_sambutan !!}</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-@endsection
+    </div>
+
+
+    <!-- col-lg-4 karena ada gap di parent -->
+    <div class="container-fluid px-0 px-md-3">
+        <div class="row pb-4">
+        </div>
+        <div class="row major">
+            <hr class="hr-garis-s2 s2">
+            @php
+            $nameToDisplay = $major->name; // Ganti dengan nama yang Anda inginkan
+            @endphp
+
+            <div class="owl-carousel product-carousel owl-loaded owl-drag" style="visibility: visible;">
+                @foreach ($majors as $major)
+                @if ($major->name === $nameToDisplay && is_array(explode(',', $major->image_carousel)))
+                @foreach (explode(',', $major->image_carousel) as $image_carousel)
+                @if (trim($image_carousel) !== '')
+                <img src="{{ asset('storage/' . trim($image_carousel)) }}" alt="img-1" class="jurusan-img-2">
+                @else
+                <!-- Tampilkan gambar kosong atau pesan yang sesuai -->
+                @endif
+                @endforeach
+                @endif
+                @endforeach
+            </div>
+        </div>
+        <hr class="hr-garis-s2">
+
+
+
+
+
+    </div>
+    @endsection

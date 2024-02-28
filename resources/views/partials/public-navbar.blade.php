@@ -1,15 +1,35 @@
-<header class="navbar navbar-expand-md navbar-light d-print-none">
+<style>
+    /* Gaya default untuk navbar kedua */
+    .nav-2 {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        /* Standar */
+        top: 70px;
+        /* Posisi awal ketika halaman dimuat */
+        z-index: 1000;
+        /* Sesuaikan nilai z-indeks sesuai kebutuhan */
+        
+    }
+
+    /* Ubah properti top menjadi 0 saat halaman digulir */
+    .nav-2.scrolled {
+        top: 0;
+    }
+    
+</style>
+<header class="navbar navbar-expand-md navbar-light d-print-none" style="background-color: #0C356A;">
     <div class="container-xl py-2">
         <!-- logo -->
         <div class="d-flex align-items-center">
-            <img src="{{ asset('storage/' . $schoolProfile->logo) }}" class="bg-transparent avatar me-2" alt="SMK Negeri 1 Karang Baru Logo (Tut Wuri Handayani)">
+            <img src="{{ asset('storage/' . $schoolProfile->logo) }}" class="bg-transparent avatar me-2" alt="SMK Negeri 1 Karang Baru Logo (Tut Wuri Handayani)" width="450" height="350">
             <div>
-                <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal p-0 pe-0 pe-md-3">
-                    <a href="{{ route('home.index') }}">
+                <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal p-0 pe-0 pe-md-3 text-uppercase">
+                    <a href="{{ route('home.index') }}" style="color: #ffffff;">
                         SMKN 1 Karang Baru
                     </a>
                 </h1>
-                <p class="d-none d-md-block fw-normal fs-5 m-0">{{ $schoolProfile->address }}</p>
+                <p class="d-none d-md-block fw-normal fs-5 m-0" style="color: #ffffff;">{{ $schoolProfile->address }}</p>
             </div>
         </div>
         <!-- end logo -->
@@ -43,11 +63,11 @@
         <!-- end humburger menu -->
     </div>
 </header>
- 
+
 <!-- second navbar -->
-<div class="navbar-expand-md">
+<div class="navbar-expand-md nav-2">
     <div class="collapse navbar-collapse" id="navbar-menu">
-        <div class="navbar navbar-light">
+        <div class="navbar navbar-light custom-navbar" style="box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.4);">
             <div class="container-xl">
                 <ul class="navbar-nav">
 
@@ -62,12 +82,49 @@
                                     <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
                                 </svg>
                             </span>
-                            <span class="nav-link-title">
+                            <span class="nav-link-title" style="font-size: large;">
                                 Beranda
                             </span>
                         </a>
                     </li>
+                    <li class="nav-item dropdown {{ (request()->routeIs('school-profile.*') || request()->routeIs('sejarah-sekolah.*') || request()->routeIs('visi-misi.*')) ? 'active' : '' }}">
+                        <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
+                            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                                    <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+                                </svg>
+                            </span>
+                            <span class="nav-link-title" style="font-size: large;">
+                                Profil
+                            </span>
+                        </a>
+                        <div class="dropdown-menu {{ (request()->routeIs('school-profile.*') || request()->routeIs('sejarah-sekolah.*') || request()->routeIs('visi-misi.*')) ? 'active' : '' }}">
+                            <div class="dropdown-menu-columns">
+                                <div class="dropdown-menu-column" style="font-size: large;">
+                                    <a class="dropdown-item {{ request()->routeIs('school-profile.*') ? 'active' : '' }}" href="{{ route('school-profile.index') }}">
+                                        Profil Sekolah
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu-columns">
+                                <div class="dropdown-menu-column" style="font-size: large;">
+                                    <a class="dropdown-item {{ request()->routeIs('sejarah-sekolah.*') ? 'active' : '' }}" href="{{ route('sejarah-sekolah.index') }}">
+                                        Sejarah Sekolah
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu-columns">
+                                <div class="dropdown-menu-column" style="font-size: large;">
+                                    <a class="dropdown-item {{ request()->routeIs('visi-misi.*') ? 'active' : '' }}" href="{{ route('visi-misi.index') }}">
+                                        Visi Misi
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
+                    </li>
                     <li class="nav-item dropdown {{ request()->routeIs('majors.*') ? 'active' : '' }}">
                         <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
                             <span class="nav-link-icon d-md-none d-lg-inline-block">
@@ -78,15 +135,15 @@
                                     <path d="M12 9.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" />
                                 </svg>
                             </span>
-                            <span class="nav-link-title">
-                                Jurusan
+                            <span class="nav-link-title" style="font-size: large;">
+                                Kompetensi Keahlian
                             </span>
                         </a>
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-columns">
                                 <div class="dropdown-menu-column">
                                     @foreach($majors as $major)
-                                    <a class="dropdown-item" href="{{ route('majors.show', ['major' => $major->slug ]) }}">
+                                    <a class="dropdown-item" href="{{ route('majors.show',  $major->slug) }}">
                                         {{ $major->name }}
                                     </a>
                                     @endforeach
@@ -95,29 +152,6 @@
                         </div>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
-                            <span class="nav-link-icon d-md-none d-lg-inline-block">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
-                                    <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
-                                </svg>
-                            </span>
-                            <span class="nav-link-title">
-                                Profile
-                            </span>
-                        </a>
-                        <div class="dropdown-menu {{ request()->routeIs('school-profile.*') ? 'active' : '' }}">
-                            <div class="dropdown-menu-columns">
-                                <div class="dropdown-menu-column">
-                                    <a class="dropdown-item" href="{{ route('school-profile.index') }}">
-                                        School Profile
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
 
                     <!-- 1. tambahkan halaman pages detail -->
                     <!-- 2. fix routeIs() dibawah ini dan juga tambahkan routeIs -->
@@ -144,7 +178,7 @@
                         </a>
                     </li>
                     @else
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown {{ request()->routeIs('pages.*') ? 'active' : '' }}">
                         <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
                             <span class="nav-link-icon d-md-none d-lg-inline-block">
                                 @if($menu->icon)
@@ -158,7 +192,7 @@
                                 </svg>
                                 @endif
                             </span>
-                            <span class="nav-link-title">
+                            <span class="nav-link-title" style="font-size: large;">
                                 {{ $menu->name }}
                             </span>
                         </a>
@@ -177,7 +211,18 @@
                     @endif
                     @endif
                     @endforeach
-
+                    
+                    <li class="nav-item {{ request()->routeIs('prestasi.*') ? 'active' : '' }}">
+                        <a class="nav-link py-3 py-md-0" href="{{ route('prestasi.index') }}">
+                            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                                <!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                                <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.a{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="a" d="M13.3855,4.5H34.495L23.94,27.241Z"></path><path class="a" d="M40.3158,4.5,23.94,43.5,7.6842,4.5"></path></g></svg>
+                            </span>
+                            <span class="nav-link-title" style="font-size: large;">
+                                Prestasi
+                            </span>
+                        </a>
+                    </li>
 
                 </ul>
                 <!-- right side of second navbar -->
@@ -212,3 +257,14 @@
     </div>
 </div>
 <!-- end second navbar -->
+<script>
+    // JavaScript untuk menambahkan dan menghapus kelas "scrolled" saat halaman digulir
+    window.addEventListener("scroll", function() {
+        var navbar = document.querySelector(".nav-2");
+        if (window.scrollY > 0) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
+</script>

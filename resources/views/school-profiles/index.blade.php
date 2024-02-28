@@ -11,7 +11,7 @@
                     Overview
                 </div>
                 <h2 class="page-title">
-                    School Profile
+                    Profil Sekolah
                 </h2>
             </div>
             <!-- Page title actions -->
@@ -51,7 +51,7 @@
                     <div class="col">
                         <div class="mb-3">
                             <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                School Name
+                                Nama Sekolah
                             </small>
                             <p class="d-block">{{ $profile->name }}</p>
                         </div>
@@ -60,7 +60,7 @@
 
                         <div class="mb-3">
                             <small class="text-uppercase text-muted fw-bold d-block mb-2">
-                                School Address
+                               Alamat Sekolah
                             </small>
                             <p class="d-block">{{ $profile->address }}</p>
                         </div>

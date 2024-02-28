@@ -14,5 +14,9 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-media-embed": "^40.0.0",
+        "@ckeditor/ckeditor5-upload": "^40.0.0"
     }
 }
