@@ -62,9 +62,12 @@
                         <thead>
                             <tr>
                                 <th class="w-1">No.</th>
+                                <th>image</th>
                                 <th>Name</th>
+                                <th>Logo</th>
                                 <th>Description</th>
-                                <th>Head of Major</th>
+                                <th>image-Head of Major</th>
+                                <th>image-carousel</th>
                                 @if( auth()->user()->isSuperadminOrAdmin() )
                                 <th></th>
                                 @endif
@@ -75,33 +78,67 @@
                             @foreach($majors as $major)
                             <tr>
                                 <td><span class="text-muted">{{ ($majors->currentpage()-1) * $majors->perpage() + $loop->index + 1 }}</span></td>
+                                <td class="flex">
+                                    <div class="d-flex py-1 align-items-center">
+                                        @if($major->image)
+                                        <img class="avatar me-2" src="{{ asset('storage/' . $major->image) }}"></img>
+                                        @endif
+                                    </div>
+                                </td>
                                 <td>
-                                    <a href="{{ route('dashboard.majors.show', ['major' => $major->slug]) }}" class="text-reset">{{ $major->name }}</a>
+                                    <a href="{{ route('dashboard.majors.show',$major->slug) }}" class="text-reset">{{ $major->name }}</a>
+                                </td>
+                                <td class="flex">
+                                    <div class="d-flex py-1 align-items-center">
+                                        @if($major->image)
+                                        <img class="avatar me-2" src="{{ asset('storage/' . $major->logo_major) }}"></img>
+                                        @endif
+                                    </div>
                                 </td>
                                 <td>
                                     {{ $major->description ? Str::words($major->description, 5, '...') : 'No description' }}
                                 </td>
-                                <td>
-                                    @if( $major->head?->name )
-                                    <a href="{{ route('dashboard.teachers.index', ['search' => $major->head->name ]) }}"> {{ $major->head->name }}</a>
-                                    @else
-                                    Teacher was deleted.
-                                    @endif
+                                <td class="flex">
+                                    <div class="d-flex py-1 align-items-center">
+                                        <img class="avatar me-2" src="{{ asset('storage/' . $major->image_major) }}"></img>
+                                        @if( $major->head?->name )
+                                        <a href="{{ route('dashboard.teachers.index', ['search' => $major->head->name ]) }}"> {{ $major->head->name }}</a>
+                                        @else
+                                        Teacher was deleted.
+                                        @endif
+                                    </div>
                                 </td>
+                                <td class="flex">
+                                    <div class="d-flex py-1 align-items-center">
+                                        @if(is_array(explode(',', $major->image_carousel)))
+                                        @php
+                                        $imageCarousels = explode(',', $major->image_carousel);
+                                        @endphp
+                                        @foreach($imageCarousels as $image_carousel)
+                                        @if (file_exists(public_path('storage/' . trim($image_carousel))))
+                                        <img class="avatar me-2" src="{{ asset('storage/' . trim($image_carousel)) }}" alt="">
+                                        @endif
+                                        @endforeach
+                                        @endif
+                                    </div>
+                                </td>
+
+
+
                                 @if( auth()->user()->isSuperadminOrAdmin() )
                                 <td class="text-start">
                                     <span class="dropdown">
                                         <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
                                         <div class="dropdown-menu dropdown-menu-end">
 
-                                            <form action="{{ route('dashboard.majors.destroy', ['major' => $major->slug]) }}" method="post">
+                                            <form action="{{ route('dashboard.majors.destroy',$major->slug) }}" method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" onclick="return confirm('Are you sure to delete this major?')" class="dropdown-item btn-danger">
                                                     Delete
                                                 </button>
                                             </form>
-                                            <a class="dropdown-item" href="{{ route('dashboard.majors.edit', ['major' => $major->slug]) }}">
+                                            <a class="dropdown-item" href="{{ route('dashboard.majors.edit',$major->slug) }}">
                                                 Edit
                                             </a>
                                         </div>

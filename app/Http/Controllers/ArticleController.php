@@ -135,39 +135,55 @@ class ArticleController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Article $article)
-    {
-        $this->authorize('update', $article);
+{
+    $this->authorize('update', $article);
 
-        $rules = [
-            'title' => 'required|max:256',
-            'category_id'   => 'required|numeric',
-            'description'   => 'required',
-            'image' => 'image|file|max:1024',
-            'body'   => 'required'
-        ];
+    $rules = [
+        'title' => 'required|max:256',
+        'category_id' => 'required|numeric',
+        'description' => 'required',
+        'image' => 'image|file|max:1024',
+        'body' => 'required'
+    ];
 
-        if ($request->slug !== $article->slug) {
-            $rules['slug'] = 'required|unique:posts';
-        }
-
-        $validatedData = $request->validate($rules);
-
-        if ($request->file('image')) {
-            if ($request->post('old-article-image') && !strpos($article->image, "default")) Storage::delete($request->post('old-article-image'));
-            $validatedData['image'] = $request->file('image')->store('article-images');
-        }
-
-        $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['is_published'] = $request->boolean('is-published');
-        if ($request->post('old-title') !== $request->post('title')) {
-            $title = $validatedData['title'];
-            $validatedData['slug'] = $this->slug($title, Article::class);
-        }
-
-        $article->update($validatedData);
-
-        return redirect()->route('dashboard..index')->with('success', 'Article has been updated.');
+    if ($request->slug !== $article->slug) {
+        $rules['slug'] = 'required|unique:posts';
     }
+
+    if ($request->hasFile('upload')) {
+        // Kode untuk mengunggah gambar
+        $originName = $request->file('upload')->getClientOriginalName();
+        $fileName = pathinfo($originName, PATHINFO_FILENAME);
+        $extension = $request->file('upload')->getClientOriginalExtension();
+        $fileName = $fileName . '_' . time() . '.' . $extension;
+
+        $request->file('upload')->move(public_path('media'), $fileName);
+
+        $url = asset('media/' . $fileName);
+
+        // Anda dapat merubah nama parameter 'uploaded' menjadi 'success' jika diperlukan
+        return response()->json(['fileName' => $fileName, 'uploaded' => 1, 'url' => $url]);
+    }
+
+    $validatedData = $request->validate($rules);
+
+    if ($request->file('image')) {
+        if ($request->post('old-article-image') && !strpos($article->image, "default")) Storage::delete($request->post('old-article-image'));
+        $validatedData['image'] = $request->file('image')->store('article-images');
+    }
+
+    $validatedData['user_id'] = auth()->user()->id;
+    $validatedData['is_published'] = $request->boolean('is-published');
+    if ($request->post('old-title') !== $request->post('title')) {
+        $title = $validatedData['title'];
+        $validatedData['slug'] = $this->slug($title, Article::class);
+    }
+
+    $article->update($validatedData);
+
+    return redirect()->route('dashboard.index')->with('success', 'Article has been updated.');
+}
+
 
     /**
      * Remove the specified resource from storage.
@@ -183,4 +199,51 @@ class ArticleController extends Controller
         $article->delete();
         return redirect()->route('dashboard.articles.index')->with('success', 'Article has been deleted.');
     }
+
+    // public function ShareWidget()
+    // {
+    //     $articleshare = \Share::page(
+    //         url('/post'),
+    //         'Your share text comes here',
+    //     )
+    //     ->facebook()
+    //     ->twitter()
+    //     ->linkedin()
+    //     ->telegram()
+    //     ->whatsapp()        
+    //     ->reddit();
+        
+    //     return view('posts', compact('articleshare'));
+    // }
+
+    public function upload(Request $request)
+{
+    if ($request->hasFile('upload')) {
+        $file = $request->file('upload');
+        $filename = time() . '_' . $file->getClientOriginalName();
+        $path = $file->storeAs('public/ckeditor', $filename);
+
+        $url = Storage::url($path);
+
+        return response()->json(['url' => $url]);
+    }
+}
+
+
+    // public function upload()
+    // {
+    //     if ($request->hasFile('uploaf')) {
+
+    //         $originName = $request->file('upload')->getClientOriginalName();
+    //         $fileName = pathinfo($originName, PATHINFO_FILENAME);
+    //         $extension = $request->file('upload')->getClientOriginalExtension();
+    //         $fileName = $fileName . '_' . time() . '.' . $$extension;
+
+    //         $request->file('upload')->move(public_path('media'), $fileName);
+
+    //         $url = asset('media/' . $fileName);
+    //         return response()->json(['fileName' => $fileName, 'uploaded' = 1
+    //             , 'url' => $url]);
+    //     }
+    // }
 }

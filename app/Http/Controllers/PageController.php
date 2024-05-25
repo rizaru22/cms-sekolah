@@ -54,12 +54,26 @@ class PageController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|max:256',
             'menu_id'   => 'required|numeric',
-            'image' => 'image|file|max:1024',
+            'image.*' => 'image|file|max:1024',
             'body'   => 'required'
         ]);
 
-        if ($request->hasFile('image'))
-            $validatedData['image'] = $request->file('image')->store('page-images');
+        $imagePaths = [];
+    
+        $imageFiles = $request->file('image');
+    
+        if (!empty($imageFiles)) {
+            foreach ($imageFiles as $image) {
+                $path = $image->store('page-images');
+                $imagePaths[] = $path;
+            }
+        }
+    
+        // Mengonversi array $imagePaths menjadi satu string dengan pemisah koma
+        $imagePathsString = implode(',', $imagePaths);
+    
+        // Set nilai kolom 'image_' dengan string yang telah digabungkan
+        $validatedData['image'] = $imagePathsString;
 
         $title = $validatedData['title'];
         $validatedData['slug'] = $this->slug($title, Page::class);
@@ -114,7 +128,6 @@ class PageController extends Controller
         $rules = [
             'title' => 'required|max:256',
             'menu_id'   => 'required|numeric',
-            'image' => 'image|file|max:1024',
             'body'   => 'required'
         ];
 
@@ -122,12 +135,39 @@ class PageController extends Controller
             $rules['slug'] = 'required|unique:posts';
         }
 
+        // Tambahkan aturan validasi untuk image yang ada
+    $existingImage = $page->image ? explode(',', $page->image) : [];
+    foreach ($existingImage as $key => $value) {
+        $rules["existing_image.$key"] = 'nullable|image|file|max:1024';
+    }
+
+
         $validatedData = $request->validate($rules);
 
-        if ($request->file('image')) {
-            if ($request->post('old-page-image') && !strpos($page->image, "default")) Storage::delete($request->post('old-page-image'));
-            $validatedData['image'] = $request->file('image')->store('page-images');
+        // Proses image yang ada
+    $imagePaths = [];
+    foreach ($existingImage as $key => $value) {
+        if ($request->file("existing_image.$key")) {
+            if ($request->post("existing_image.$key") && !strpos($value, "default")) {
+                Storage::delete($request->post("existing_image.$key"));
+            }
+            $path = $request->file("existing_image.$key")->store('page-images');
+            $imagePaths[] = $path;
+        } else {
+            // Jika tidak ada file baru, gunakan file lama
+            $imagePaths[] = $value;
         }
+    }
+
+    // Proses image yang baru
+    if ($request->hasFile('new_image')) {
+        foreach ($request->file('new_image') as $image) {
+            $path = $image->store('page-images');
+            $imagePaths[] = $path;
+        }
+    }
+
+    $validatedData['image'] = implode(',', $imagePaths);
 
         if ($request->post('old-title') !== $request->post('title')) {
             $title = $validatedData['title'];
@@ -152,5 +192,40 @@ class PageController extends Controller
         if ($page->image && !strpos($page->image, "default")) Storage::delete($page->image);
         $page->delete();
         return redirect()->route('dashboard.pages.index')->with('success', 'Page has been deleted.');
+    }
+
+    public function removeImage(Request $request, $pageId)
+    {
+        $index = $request->get('index');
+    
+        // Ambil page dari database berdasarkan pageId
+        $page = page::find($pageId);
+    
+        if (!$page) {
+            return response('page not found', 404);
+        }
+    
+        // Hapus gambar dari image berdasarkan indeks
+        $imageArray = explode(',', $page->image);
+    
+        if (array_key_exists($index, $imageArray)) {
+            $deletedImage = trim($imageArray[$index]);
+    
+            // Hapus gambar dari storage (pastikan untuk menggunakan direktori yang benar)
+            if (Storage::exists($deletedImage)) {
+                Storage::delete($deletedImage);
+            }
+    
+            // Hapus gambar dari array image
+            unset($imageArray[$index]);
+    
+            // Gabungkan kembali array image
+            $page->image = implode(',', $imageArray);
+            $page->save();
+    
+            return response('Image removed', 200);
+        } else {
+            return response('Image not found', 404);
+        }
     }
 }

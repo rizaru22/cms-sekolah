@@ -74,13 +74,14 @@
                             <tr>
                                 <td><span class="text-muted">{{ ($pages->currentpage()-1) * $pages->perpage() + $loop->index + 1 }}</span></td>
                                 <td class="flex">
-                                    <div class="d-flex py-1 align-items-center">
-                                        @if($page->image)
-                                        <img class="avatar me-2" src="{{ asset('storage/' . $page->image) }}"></img>
+                                <div class="d-flex py-1 align-items-center">
+                                        @if(is_array(explode(',', $page->image)))
+                                        @foreach(explode(',', $page->image) as $image)
+                                        @if (file_exists(public_path('storage/' . trim($image))))
+                                        <img class="avatar me-2" src="{{ asset('storage/' . trim($image)) }}" alt="">
                                         @endif
-                                        <div class="flex-fill">
-                                            <a href="{{ route('dashboard.pages.show', ['page' => $page->slug ] ) }}" class="text-reset" tabindex="-1">{{ Str::words($page->title, 5, '...') }}</a>
-                                        </div>
+                                        @endforeach
+                                        @endif
                                     </div>
                                 </td>
                                 <td>

@@ -3,6 +3,7 @@
 @include('partials.ckeditor-style')
 
 @section('content')
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 <div class="container-xl">
     <!-- Page title -->
     <div class="page-header d-print-none">
@@ -79,21 +80,33 @@
                                     <!-- <div class="mb-3">
                                     <img src="" alt="" class="image-placeholder">
                                 </div> -->
-                                    <div class="mb-3">
+                                <div class="mb-3">
                                         <div class="form-label">Page Image</div>
 
                                         <input type="hidden" name="old-page-image" value="{{ $page->image }}">
 
-                                        @if($page->image)
-                                        <img class="w-100 block rounded overflow-hidden mb-2" id="img-preview" src="{{ asset('storage/' . $page->image) }}" alt="">
-                                        @endif
+                                        @php
+                                        $oldImage = explode(',', $page->image);
+                                        @endphp
 
-                                        <input type="file" class="form-control mb-2" name="image" />
+                                        @foreach ($oldImage as $index => $oldImage)
+                                        <div class="mb-22">
+                                            <img class="w-100 block rounded overflow-hidden mb-2" src="{{ asset('storage/' . trim($oldImage)) }}" alt="Image ">
+                                            <button type="button" class="btn btn-danger btn-sm" onclick="removeImage(this, {{ $page->id }}, {{ $index }})">Remove</button>
+                                        </div>
+                                        @endforeach
+
+                                        <div id="new-image">
+                                            <!-- Input file untuk image_ baru akan ditambahkan di sini -->
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary btn-sm" onclick="addNewImage()">Add More</button>
+
                                         @error('image')
                                         <small class="text-danger">{{ $message }}</small>
                                         @enderror
 
-                                        <small class="text-muted d-block">Choose file if you want to replace the previous image.</small>
+                                        <small class="text-muted d-block">Choose files if you want to add to the previous image  or click "Add More" to add new ones.</small>
                                     </div>
                                 </div>
                             </div>
@@ -137,4 +150,97 @@
 </div>
 
 @include('partials.ckeditor-script')
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+<script>
+    let newImageIndex = 0;
+
+function removeImage(element, pageId, index) {
+// Buat permintaan AJAX untuk menghapus gambar dari database
+var xhr = new XMLHttpRequest();
+xhr.open('DELETE', '/remove-image/' + pageId, true);
+xhr.setRequestHeader('X-CSRF-TOKEN', document.querySelector('meta[name="csrf-token"]').getAttribute('content'));
+xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+
+xhr.onload = function() {
+    if (xhr.status === 200) {
+        // Gambar berhasil dihapus dari database, sekarang hapus elemen gambar dari tampilan
+        element.parentNode.remove();
+    } else {
+        console.error(xhr.responseText);
+    }
+};
+
+xhr.send(JSON.stringify({ index: index }));
+}
+
+
+
+function addNewImage() {
+    const newInput = document.createElement('input');
+    newInput.type = 'file';
+    newInput.name = `new_image[${newImageIndex}]`;
+    newInput.accept = 'image/*';
+    newInput.className = 'form-control mb-2';
+    newInput.setAttribute('multiple', true);
+
+    const newDiv = document.createElement('div');
+    newDiv.className = 'mb-2';
+    newDiv.appendChild(newInput);
+
+    document.getElementById('new-image').appendChild(newDiv);
+
+    newImageIndex++;
+}
+
+$('#editor').summernote({
+    placeholder: 'Hello stand alone ui',
+    tabsize: 2,
+    height: 120,
+    toolbar: [
+      ['style', ['style']],
+      ['font', ['bold', 'underline', 'clear']],
+      ['color', ['color']],
+      ['para', ['ul', 'ol', 'paragraph']],
+      ['table', ['table']],
+      ['insert', ['link', 'picture', 'video']],
+      ['view', ['fullscreen', 'codeview', 'help']]
+    ],
+    callbacks: {
+      onPaste: function (e) {
+        var clipboardData = e.originalEvent.clipboardData;
+        if (clipboardData && clipboardData.items) {
+          for (var i = 0; i < clipboardData.items.length; i++) {
+            var item = clipboardData.items[i];
+            if (item.type.indexOf("image") !== -1) {
+              // Handle image paste here
+            } else if (item.type.indexOf("text/plain") !== -1) {
+              // Handle text paste here
+            } else if (item.type.indexOf("text/html") !== -1) {
+              // Handle HTML paste here
+            } else if (item.type.indexOf("text/uri-list") !== -1) {
+              var reader = new FileReader();
+              reader.onload = function (e) {
+                var videoUrl = e.target.result;
+                // Check if the URL is a video URL, and if so, insert it as a video
+                if (isVideoURL(videoUrl)) {
+                  $('#editor').summernote('createVideo', videoUrl);
+                }
+              };
+              reader.readAsDataURL(item.getAsFile());
+            }
+          }
+        }
+      }
+    }
+  });
+
+function isVideoURL(url) {
+  // You can implement your own logic to determine if the URL is a video URL.
+  // For a simple example, you can check if the URL contains certain video domain names like "youtube.com" or "vimeo.com".
+  // If it's a video URL, return true, otherwise, return false.
+  return url.includes("youtube.com") || url.includes("vimeo.com");
+}
+
+</script>
 @endsection

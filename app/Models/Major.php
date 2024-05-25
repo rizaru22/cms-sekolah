@@ -20,4 +20,14 @@ class Major extends Model
     {
         return 'slug';
     }
+
+    protected $fillable = [
+        'id','image','image_major','logo_major','name','slug','description','head_of_major_id','body','image_carousel'
+       ];
+
+       public function majorImages()
+    {
+        return $this->hasMany(ImageJurusan::class);
+    }
+
 }

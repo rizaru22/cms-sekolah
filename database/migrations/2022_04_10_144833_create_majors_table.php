@@ -17,8 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('name', 256);
             $table->string('description', 512)->nullable();
+            $table->string('image')->nullable();
             $table->foreignId('head_of_major_id');
             $table->text('body')->nullable();
+            $table->string('image_carousel')->nullable();
             $table->timestamps();
         });
     }

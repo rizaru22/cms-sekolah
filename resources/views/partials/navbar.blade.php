@@ -236,6 +236,34 @@
                             </span>
                         </a>
                     </li>
+                    <li class="nav-item {{ request()->routeIs('dashboard.sejarah-sekolah.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('dashboard.sejarah-sekolah.index') }}">
+                            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                                    <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+                                </svg>
+                            </span>
+                            <span class="nav-link-title">
+                                Sejarah Sekolah
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item {{ request()->routeIs('dashboard.visi-misi.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('dashboard.visi-misi.index') }}">
+                            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+                                    <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+                                </svg>
+                            </span>
+                            <span class="nav-link-title">
+                                Visi misi 
+                            </span>
+                        </a>
+                    </li>
 
                     <li class="nav-item {{ request()->routeIs('dashboard.menus.*') ? 'active' : '' }}">
                         <a class="nav-link" href="{{ route('dashboard.menus.index') }}">
@@ -266,6 +294,20 @@
                             </span>
                         </a>
                     </li>
+                    <li class="nav-item {{ request()->routeIs('dashboard.pages.*') ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('dashboard.prestasi.index') }}">
+                            <span class="nav-link-icon d-md-none d-lg-inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <rect x="7" y="3" width="14" height="14" rx="2" />
+                                    <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
+                                </svg>
+                            </span>
+                            <span class="nav-link-title">
+                                Prestasi
+                            </span>
+                        </a>
+                    </li>
 
 
                 </ul>
@@ -274,7 +316,7 @@
     </div>
 </div>
 
-<div class="container-xl my-2">
+<div class="container-xl">
     <!-- alert -->
     <div class="w-100">
         @if( session('errorMessage') )
